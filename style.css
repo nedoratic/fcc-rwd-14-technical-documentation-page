@@ -87,7 +87,6 @@ code {
 }
 
 @media only screen and (max-width: 815px) {
-	/* For mobile phones: */
 	#navbar ul {
 		border: 1px solid;
 		height: 207px;
@@ -135,4 +134,19 @@ p > a {
 p > a:hover {
 	font-size: small;
 	font-weight: bold;
+}
+
+pre {
+	overflow-x: auto;
+}
+
+pre {
+	white-space: pre-wrap;
+}
+
+@media only screen and (max-width: 400px) {
+	pre {
+		margin-left: 0;
+		padding: 5px;
+	}
 }
